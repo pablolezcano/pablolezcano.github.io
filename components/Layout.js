@@ -2,15 +2,14 @@ import Navbar from './Navbar'
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import nProgress from 'nprogress';
-
- 
+import Rings from './Rings';
 
 
 const Layout = ({children}) => {
 
     const router = useRouter();
 
-    useEffect(()=>{
+    useEffect(() => {
 
         const handleRouteChange = url => {
             console.log(url)
@@ -21,20 +20,22 @@ const Layout = ({children}) => {
         router.events.on('routeChangeComplete', () => nProgress.done());
 
         return () => {
-            router.events.off('routeChangeStart', handleRouteChange)
+            router.events.off('routeChangeStart', handleRouteChange) 
         }
     }, [])
 
     return (
         <>
 
-    <Navbar />
-    
+   {/*    <Navbar /> */}
+    <Rings/>
     <main className='container py-4'>
+
         {children}
+
     </main>
 
-    <footer className='bg-dark text-light text-center'>
+    <footer className='text-center'>
         <div className="container p-4">
             <h5>Hecho por @pablolezcano</h5>
             <p>2022</p>

@@ -1,14 +1,54 @@
-.overflow {
-    height: 50%;
-    overflow: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.body {
+    
+    background-color: #ffffff;
+    background-attachment: fixed;
 }
-.overflow .card-img-top {
-    transform: scale(1);
-    transition: all 0.2s ease-in-out;
+
+.name {
+    font-size: 7vw;
+    font-family: 'Roboto', 'Thin 100';
+
 }
-.overflow .card-img-top:hover {
-    transform: scale(1.8);
+.landing-header { 
+    width: 100%;
+    height: 100vh;
 }
+ul {
+    list-style: none;
+}
+ul.navega li {
+    display: inline;
+    padding-right: 0.5em;
+  }
+
+.header-text {
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    text-align: center;
+}
+
+
+.navbar-toggler .navbar-toggler-icon {
+    color: aliceblue;
+}
+
+.img-fluid {
+    border-radius: 50%;
+    height: 250px;
+    margin: 30px;
+
+}
+
 
 #nprogress .bar {
      background: #ff5348 !important;
@@ -17,3 +57,102 @@
     border-top-color: aqua;
     border-left-color: aquamarine;
 }
+
+.card-small-a {
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    box-sizing: border-box;
+    width: auto;
+    height: 50%;
+    transition: all linear 200ms;
+}
+.card-small-a:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+
+ 
+.card-small-b {
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 200px;
+    height:70%;
+    transition: all linear 200ms;
+  }
+  .card-small-b:hover {
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+  }
+
+.card-small-c {
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 50%;
+    transition: all linear 200ms;
+  }
+  .card-small-c:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+  }
+
+.card-custom {
+    margin: 10px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow:  -5px 5px 23px #d9d9d9,
+                 5px -5px 23px #ffffff;
+    
+}
+button {
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    transition: all 1.5s ease;
+    font-family: 'Ropa Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    padding: 0;
+   }
+   
+   button span {
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    background: #ffffff10;
+    backdrop-filter: blur(20px);
+    transition: 0.4s ease-in-out;
+    transition-property: color;
+    height: 100%;
+    width: 100%;
+   }
+   
+   button span:hover {
+    backdrop-filter: blur(0px);
+    color: #ffffff;
+   }
+
+  

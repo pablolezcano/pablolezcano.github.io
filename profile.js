@@ -20,31 +20,124 @@ export const projects = [
     {
         name: 'Proyecto 1',
         description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        tech: "react", 
         image: "project1.jpg",
+        github: "https://github.com/pablolezcano/pablolezcano.github.io",
+        view: "http://pablolezcano.com.ar/"
     },
     {
-        name: 'Proyecto 2',
-        description: ' Lorem LoremLorem Lorem ',
+        name: 'Proyecto 1',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        tech: "JS Vanilla",
         image: "project2.png",
+        github: "",
+        view: "",
     },
     {
-        name: 'Proyecto 3',
-        description: ' LoremLorem Lorem rem  Lorem LoremLorem Lorem ',
+        name: 'Proyecto 1',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        tech: "Electron", 
         image: "project3.png",
+        github: "",
+        view: ""
     },
     {
-        name: 'Proyecto 4',
-        description: ' LoremLorem Lorem LoremLorem  Lorem LoremLorem Lorem ',
+        name: 'Proyecto 1',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        tech: "Electron", 
         image: "project4.jpg",
+        github: "",
+        view: ""
+    },
+]
+
+export const skills = [  
+    {
+        skill: 'Javascript',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "javascript.svg",
     },
     {
-        name: 'Proyecto 5',
-        description: ' LoremLorem Lorem em  Lorem LoremLorem Lorem ',
-        image: "project5.png",
+        skill: 'Python',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "python.svg",
+    },
+    
+    
+    
+]
+
+export const skillBackEnd = [
+    {
+        skill: 'Node.JS',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "node-dot-js.svg",
     },
     {
-        name: 'Proyecto 6',
-        description: ' LoremLorem Lo Lorem LoremLorem Lorem ',
-        image: "project1.jpg",
+        skill: 'mysql',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "mysql.svg",
     },
+    {
+        skill: 'Electron',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "electron.svg",
+    },
+    {
+        skill: 'mongoDB',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "mongoDB.svg",
+    }
+]
+
+export const skillFrontEnd = [
+    {
+        skill: 'html',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "html5.svg",
+    },
+    {
+        skill: 'css3',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "css3.svg",
+    },
+    {
+        skill: 'react',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "react.svg",
+    },
+    {
+        skill: 'bootstrap',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "bootstrap.svg",
+    },
+    
+]
+
+export const otherSkill = [
+    {
+        skill: 'Git',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "git.svg",
+    },
+    {
+        skill: 'npm',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "npm.svg",
+    },
+    {
+        skill: 'Figma',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "figma.svg",
+    },
+    {
+        skill: 'Adobe Illustator',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "adobeillustrator.svg",
+    },
+    {
+        skill: 'Adobe Photoshop',
+        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
+        image: "adobephotoshop.svg",
+    }
 ]

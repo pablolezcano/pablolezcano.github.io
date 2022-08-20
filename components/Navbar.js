@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const Navbar = () => (
 
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-expand-lg">
 <div class="container-fluid">
       <Link  href="/">
       <a class="navbar-brand">Pablo Lezcano</a>
@@ -12,20 +12,19 @@ const Navbar = () => (
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          
           <li class="nav-item">
-           <Link href="/blog">
+          <Link href="/blog">
            <a class="nav-link" >Blog</a>
-           </Link>
+          </Link>
           </li>
           <li class="nav-item">
-           <Link href="/github">
+          <Link href="/github">
            <a class="nav-link" >GitHub</a>
-           </Link>
+          </Link>
           </li>
           <li class="nav-item">
            <Link href="/cv">
-           <a class="nav-link" >CV</a>
+              <a class="nav-link">CV</a>
            </Link>
           </li>
         </ul>
