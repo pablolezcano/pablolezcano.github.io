@@ -1,11 +1,11 @@
 {
-  "homepage": "http://pablolezcano.com.ar/",
+  "homepage": "http://pablolezcano.github.io/",
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'pablolezcano.com.ar' > ./build/CNAME ",
     "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
