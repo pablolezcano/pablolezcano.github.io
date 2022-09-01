@@ -36,7 +36,8 @@ const Index = () => (
                 <div className="card-custom">
                     <div className="row">
                         <div className="col-md-12 p-3">
-                           <p className="p-4">Actualmente desarrollo web, git, crear aplicaciones de escritorio, frameworks y otras Tecnologías.</p> 
+                           <p className="p-4"> Hola! Me llamo Pablo y soy de Pergamino, Buenos Aires, Argentina. Soy desarrollador JS en busqueda de mi primer experiencia en el desarrollo. He aprendido de forma autodidacta manteniendo la constancia y la motivacion. Actualmente estoy trabajando como Analista de Mesa de Ayuda. </p> 
+                            <p className="p-4"> Me considero una personaresponsable y atenta a los detalles, con muchas ganas de seguir aprendiendo nuevas habilidades y tecnologías web para mi desarrollo profesional. También tengo un fuerte compromiso con los proyectos que me asignan, y doy lo mejor de mí para completar las tareas con el mejor resultado posible. </p>
                         </div>
                     </div>
                 </div>
@@ -159,7 +160,7 @@ const Index = () => (
                         <div className="row">
                             <div className="col">
                                 <div className="card-small-b">
-                                    <h5>@pabloromanlezcano</h5>
+                                    @pabloromanlezcano
                                 </div>
                             </div>
                             <div className="col">

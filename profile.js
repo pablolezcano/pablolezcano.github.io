@@ -18,37 +18,14 @@ export const experiences = [
 
 export const projects = [
     {
-        name: 'Proyecto 1',
-        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
-        tech: "react", 
-        image: "project1.jpg",
-        github: "https://github.com/pablolezcano/pablolezcano.github.io",
-        view: "http://pablolezcano.com.ar/"
+        name: 'App de clima',
+        description: ' Ésta aplicacion está hecha para visualizar el clima según tu posición geográfica.',
+        tech: "Vanilla JS", 
+        image: "clima-api.gif",
+        github: "https://github.com/pablolezcano/App-clima",
+        view: "https://pablolezcano.com.ar/App-clima/"
     },
-    {
-        name: 'Proyecto 1',
-        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
-        tech: "JS Vanilla",
-        image: "project2.png",
-        github: "",
-        view: "",
-    },
-    {
-        name: 'Proyecto 1',
-        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
-        tech: "Electron", 
-        image: "project3.png",
-        github: "",
-        view: ""
-    },
-    {
-        name: 'Proyecto 1',
-        description: ' Lore Lorem Lorm Loremm  LLoremLorem Lorem ',
-        tech: "Electron", 
-        image: "project4.jpg",
-        github: "",
-        view: ""
-    },
+
 ]
 
 export const skills = [  
