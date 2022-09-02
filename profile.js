@@ -23,7 +23,7 @@ export const projects = [
         tech: "Vanilla JS", 
         image: "clima-api.gif",
         github: "https://github.com/pablolezcano/App-clima",
-        view: "https://pablolezcano.com.ar/App-clima/"
+        view: "/App-clima/"
     },
 
 ]
