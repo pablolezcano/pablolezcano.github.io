@@ -9,15 +9,15 @@ export const projects = [
         tech: "Vanilla JS", 
         image: "clima-api.gif",
         github: "https://github.com/pablolezcano/App-clima",
-        view: "/App-clima/"
+        view: "https://pablolezcano.com.ar/App-clima/"
     },
     {
         name: 'Gestor de leyendas',
         description: 'Programa creado para poder imprimir una frase o leyenda en una parte especifica de una hoja de papel deseada. Este proyecto fue realizado para facilitar un proceso repatitivo.',
         tech: "NodeJS",
         image: "gestor-de-leyendas.gif",
-        github: "https://github.com/pablolezcano/App-clima",
-        view: "/App-clima/"
+        github: "https://github.com/pablolezcano/app-gestor-de-leyendas",
+        view: "https://github.com/pablolezcano/app-gestor-de-leyendas/releases"
     },
 
 ]

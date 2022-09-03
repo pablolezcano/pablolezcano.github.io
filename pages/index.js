@@ -126,10 +126,10 @@ const Index = () => (
                                             <div className="text-center text-md-start">
                                                <div className="p-3">
                                                     <span className="p-3">
-                                                        <a href={github} target="_blank" className=" btn btn-outline-secondary">Github</a>
+                                                        <a href={github} target="_blank" className="btn btn-outline-secondary">Github</a>
                                                     </span>
                                                     <span className="p-3">
-                                                        <a href={`/${github}`} target="_blank" className="btn btn-outline-secondary">Visitar</a>
+                                                        <a href={view} target="_blank" className="btn btn-outline-secondary">Visitar</a>
                                                     </span>
                                                </div>
                                             </div>
