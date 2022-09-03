@@ -1,20 +1,6 @@
 import { imageConfigDefault } from "next/dist/shared/lib/image-config"
 
-export const experiences = [
-    {
-        title: 'Analista de Mesa de Ayuda',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac mi euismod, malesuada odio vitae, accumsan tortor. Aliquam bibendum ac ipsum sit amet placerat. In hac habitasse platea dictumst. Donec scelerisque metus tortor, quis semper ex dictum sed. ',
-        from: 2021,
-        to: 2022
 
-    },
-    {
-        title: 'Desarrollador Front End - Freelance',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac mi euismod, malesuada odio vitae, accumsan tortor. Aliquam bibendum ac ipsum sit amet placerat. In hac habitasse platea dictumst. ',
-        from: 2018,
-        to: 2020
-    }
-]
 
 export const projects = [
     {
@@ -22,6 +8,14 @@ export const projects = [
         description: ' Ésta aplicacion está hecha para visualizar el clima según tu posición geográfica.',
         tech: "Vanilla JS", 
         image: "clima-api.gif",
+        github: "https://github.com/pablolezcano/App-clima",
+        view: "/App-clima/"
+    },
+    {
+        name: 'Gestor de leyendas',
+        description: 'Programa creado para poder imprimir una frase o leyenda en una parte especifica de una hoja de papel deseada. Este proyecto fue realizado para facilitar un proceso repatitivo.',
+        tech: "NodeJS",
+        image: "gestor-de-leyendas.gif",
         github: "https://github.com/pablolezcano/App-clima",
         view: "/App-clima/"
     },
