@@ -54,7 +54,7 @@ const Rings = () => {
                         
                         
                     </span>
-                    <button>
+                    <button className="button-vermas">
                     <span> Ver más
                     </span>
                     </button>

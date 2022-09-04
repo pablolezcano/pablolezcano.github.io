@@ -126,7 +126,7 @@ ul.navega li {
                  5px -5px 23px #ffffff;
     
 }
-button {
+button-vermas {
     border: none;
     border-radius: 20px;
     background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
@@ -137,7 +137,7 @@ button {
     padding: 0;
    }
    
-   button span {
+   button-vermas span {
     display: inline-block;
     padding: 15px 35px;
     font-size: 17px;
@@ -150,7 +150,7 @@ button {
     width: 100%;
    }
    
-   button span:hover {
+   button-vermas span:hover {
     backdrop-filter: blur(0px);
     color: #ffffff;
    }
