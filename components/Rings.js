@@ -36,29 +36,41 @@ const Rings = () => {
                     <span> <h5>Desarrollador JS</h5>
                         <ul className="header-links p-0 d-flex justify-content-between align-items-center">
                           <li>
-                            <div class="m-2 card-small-a" >
-                              <img src="github.svg" alt="" width="35" height="auto"/>
+                            <div class="m-2 card-small-a " >
+                              <a href="#contacto">
+                              <img  src="github.svg" alt="" width="35" height="auto"/>
+                              </a>
                             </div>
                           </li>
                           <li>
+                            
                             <div class="m-2 card-small-a">
+                            <a href="#contacto" >
                               <img src="linkedin.svg" alt="" width="35" height="auto"/>
+                            </a>
                             </div>
+                            
                           </li>
                           <li>
                           <div class="m-2 card-small-a">
-                            <img src="mail4.svg" alt="" width="35" height="auto"/>
+                            <a href="#contacto" >
+                              <img src="mail4.svg" alt="" width="35" height="auto"/>
+                            </a>
                           </div>
                           </li>
                         </ul>
                         
                         
+                       
+
                     </span>
-                    <button className="button-vermas">
-                    <span> Ver más
-                    </span>
-                    </button>
+                    
+                    <span className="sbtn ">
+                          <a href="#sobre-mi" className="sbtn  splash-btn block-btn white-btn">Ver más</a>
+                     </span>
                 </div>
+
+               
             </div>
     </div>
   );

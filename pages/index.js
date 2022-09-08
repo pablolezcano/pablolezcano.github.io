@@ -36,8 +36,12 @@ const Index = () => (
                 <div className="card-custom">
                     <div className="row">
                         <div className="col-md-12 p-3">
-                           <p className="p-4"> Hola! Me llamo Pablo y soy de Pergamino, Buenos Aires, Argentina. Soy desarrollador JS en busqueda de mi primer experiencia en el desarrollo. He aprendido de forma autodidacta manteniendo la constancia y la motivacion. Actualmente estoy trabajando como Analista de Mesa de Ayuda. </p> 
-                            <p className="p-4"> Me considero una personaresponsable y atenta a los detalles, con muchas ganas de seguir aprendiendo nuevas habilidades y tecnologías web para mi desarrollo profesional. También tengo un fuerte compromiso con los proyectos que me asignan, y doy lo mejor de mí para completar las tareas con el mejor resultado posible. </p>
+                           <p className="p-4"> Hola! Me llamo Pablo y soy de Pergamino, Buenos Aires, Argentina. Soy desarrollador JS en busqueda de mi primer experiencia en el desarrollo. He aprendido de forma autodidacta diferentes tecnologías. Actualmente estoy trabajando como Analista de Mesa de Ayuda. 
+                            <br>
+                            </br>
+                                 Me considero una persona responsable y atenta a los detalles, con muchas ganas de seguir aprendiendo nuevas habilidades y tecnologías web para mi desarrollo profesional. También tengo un fuerte compromiso con los proyectos que me asignan, y doy lo mejor de mí para completar las tareas con el mejor resultado posible.
+                           </p> 
+                        
                         </div>
                     </div>
                 </div>
@@ -120,17 +124,19 @@ const Index = () => (
                                         
                                         <h5>Tecnologías utilizadas</h5>
                                         <div className="p-3" >
-                                        <span className="badge bg-secondary">{tech}</span>
+                                        <span className="badge bg-dark">{tech}</span>
 
                                         </div>
                                             <div className="text-center text-md-start">
                                                <div className="p-3">
                                                     <span className="p-3">
-                                                        <a href={github} target="_blank" className="btn btn-outline-secondary">Github</a>
+                                                        <a href={github} target="_blank" className="btn btn-outline-dark">Github</a>
                                                     </span>
                                                     <span className="p-3">
-                                                        <a href={view} target="_blank" className="btn btn-outline-secondary">Visitar</a>
+                                                        <a href={view} target="_blank" className="btn btn-outline-dark">Visitar</a>
                                                     </span>
+
+                                              
                                                </div>
                                             </div>
                                         
@@ -151,40 +157,40 @@ const Index = () => (
 
         {/** Contacto */}
 
-        <div className="row">
-            <div className="col-md-12">
-            <h1 className="text-center text-dark">Contacto</h1>
-                <div className="card-custom">
-                    <div className="row">
-                        <div className="col-md-12 p-5" >
-                        <div className="row">
-                            <div className="col">
-                                <div className="card-small-b">
-                                    @pabloromanlezcano
-                                </div>
-                            </div>
-                            <div className="col">
-                            <div className="card-small-b">/in/pablolezcano</div>
-                            </div>
-                                <div className="w-100"></div>
-                            <div className="col">
-                                <div className="card-small-b">
-                                Curriculum Vitae
-                                </div>
-                            </div>
-                            <div className="col">
-                                <div className="card-small-b">
-                                Github
-                                </div>
-                            </div>
-                            </div>
+        <div className="row py-2">
+            <h1 id="contacto" className="text-center text-dark">Contacto</h1>
+            <div className="card-custom p-4">
+                <div className="col-11 col-lg-9 p-3 p-md-4 p-xl-5 m-auto border-radius-1em">
+                    <div className="row g-4">
+                    <div className="col-12 col-md-6 ">
+                            <a href="https://www.linkedin.com/in/pablolezcano" target="_blank" class="p-4 d-flex justify-content-start align-items-center">
+                                    <img src="linkedin.svg" alt="linkedin" class="ms-sm-3 ms-md-0 ms-xl-3 me-3 me-sm-5 me-md-3 me-xl-5"/>
+                                    <p class="m-0 fs-0 fs-md-5">/pablolezcano</p>
+                            </a>
+                        </div>
+                        <div className="col-12 col-md-6 ">
+                            <a href="mailto:pabloromanlezcano@gmail.com" class="p-4  d-flex justify-content-start align-items-center">
+                                    <img src="mail4.svg" alt="email" class="ms-sm-3 ms-md-0 ms-xl-3 me-3 me-sm-5 me-md-3 me-xl-5"/>
+                                    <p class="m-0 fs-0 fs-md-5 text-wrap">pabloromanlezcano@gmail.com</p>
+                            </a>
+                        </div>
+                        <div className="col-12 col-md-6 ">
+                        <a href="https://drive.google.com/file/d/13yHEljcce8wV4soj3xd3mXjsT8w7UGLj/view" class="p-4  d-flex justify-content-start align-items-center">
+                                    <img src="file-text2.png" alt="email" class="ms-sm-3 ms-md-0 ms-xl-3 me-3 me-sm-5 me-md-3 me-xl-5"/>
+                                    <p class="m-0 fs-0 fs-md-5 text-wrap">Curriculum Vitae</p>
+                            </a>
+                        </div>
+                        <div className="col-12 col-md-6">
+                        <a href="https://github.com/pablolezcano/" class="p-4  d-flex justify-content-start align-items-center">
+                                    <img src="github.svg" alt="email" class="ms-sm-3 ms-md-0 ms-xl-3 me-3 me-sm-5 me-md-3 me-xl-5"/>
+                                    <p class="m-0 fs-0 fs-md-5 text-wrap">/pablolezcano</p>
+                            </a>
                         </div>
                     </div>
                 </div>
+                        
             </div>
         </div>
-
-
 </Layout>
 )
 
