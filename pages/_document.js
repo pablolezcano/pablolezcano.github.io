@@ -29,6 +29,14 @@ class MyDocument extends Document {
           <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.rings.min.js"></script>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sbuttons/dist/sbuttons.min.css"/>
+      <!-- Google tag (gtag.js) -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBGVEC7ZHX"></script>
+          <script>
+             window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+            gtag('config', 'G-EBGVEC7ZHX');
+          </script>
         </Head>
         <body>
           
