@@ -175,7 +175,7 @@ const Index = () => (
                             </a>
                         </div>
                         <div className="col-12 col-md-6 ">
-                        <a href="https://drive.google.com/file/d/13yHEljcce8wV4soj3xd3mXjsT8w7UGLj/view" class="p-4  d-flex justify-content-start align-items-center">
+                        <a href="https://drive.google.com/file/d/1ulkkA6PLCiga7e2F-BKmGAKptHy0NV3B/view" class="p-4  d-flex justify-content-start align-items-center">
                                     <img src="file-text2.png" alt="email" class="ms-sm-3 ms-md-0 ms-xl-3 me-3 me-sm-5 me-md-3 me-xl-5"/>
                                     <p class="m-0 fs-0 fs-md-5 text-wrap">Curriculum Vitae</p>
                             </a>
